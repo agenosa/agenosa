@@ -21,7 +21,7 @@ function App() {
       <GlobalStyles />
       <StyledNavBar />
       <Switch>
-      <Route exact path="/adriangenosa"><Home /></Route>
+      <Route exact path="/home"><Home /></Route>
       <Route path="/about"><About /></Route>
       <Route path="/contact"><Contact /></Route>
       <Route path="/projects"><Projects /></Route>
