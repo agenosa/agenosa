@@ -9,7 +9,7 @@ const StyledNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <Nav>
-      <StyledLogo to="/home">
+      <StyledLogo to="/">
         <div logo className="logo">
           AG
         </div>
@@ -22,7 +22,7 @@ const StyledNavbar = () => {
         </StyledHamburger>
       </>
       <StyledMenu isOpen={isOpen}>
-        <StyledLink to="/home" onClick={() => setIsOpen(!isOpen)}>
+        <StyledLink to="/" onClick={() => setIsOpen(!isOpen)}>
           Home
         </StyledLink>
         <StyledLink
