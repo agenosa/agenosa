@@ -20,21 +20,19 @@ function App() {
     <Container main>
       <GlobalStyles />
       <StyledNavBar />
-      <BrowserRouter>
-      <HashRouter basename="/">
+
       <Switch>
       <Route exact path="/"><Home /></Route>
-      <Route path="#about"><About /></Route>
-      <Route path="#contact"><Contact /></Route>
-      <Route path="#projects"><Projects /></Route>
-      <Route path="#vueproject"><VueProject /></Route>
-      <Route path="#reactproject"><ReactProject /></Route>
-      <Route path="#csharpproject"><CSharpProject /></Route>
-      <Route path="#angularproject"><AngularProject /></Route>
-      <Route path="#whatsonpresale"><ProjectP3 /></Route>
+      <Route path="/about"><About /></Route>
+      <Route path="/contact"><Contact /></Route>
+      <Route path="/projects"><Projects /></Route>
+      <Route path="/vueproject"><VueProject /></Route>
+      <Route path="/reactproject"><ReactProject /></Route>
+      <Route path="/csharpproject"><CSharpProject /></Route>
+      <Route path="/angularproject"><AngularProject /></Route>
+      <Route path="/whatsonpresale"><ProjectP3 /></Route>
       </Switch>
-      </HashRouter>
-      </BrowserRouter>
+
       <StyledFooter footerLabel="Created by Adrian Genosa &copy;2022 &#8594; adrian.genosa@gmail.com" />
     </Container>
   );
