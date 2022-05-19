@@ -9,7 +9,7 @@ import CSharpProject from "./pages/CSharpProject"
 import ReactProject from "./pages/ReactProject";
 import ProjectP3 from "./pages/ProjectP3"
 import "react-awesome-slider/dist/styles.css";
-import { Routes, Route, HashRouter, Switch } from "react-router-dom";
+import { Routes, Route, HashRouter, Switch, BrowserRouter } from "react-router-dom";
 import { Container } from "./components/Container.style";
 import { StyledFooter } from "./components/Footer.style";
 import StyledNavBar from "./components/navbar/Navbar.style";
@@ -20,7 +20,9 @@ function App() {
     <Container main>
       <GlobalStyles />
       <StyledNavBar />
-      <HashRouter>
+      <BrowserRouter>
+      <HashRouter basename="/">
+      <Switch>
       <Route exact path="/"><Home /></Route>
       <Route path="/about"><About /></Route>
       <Route path="/contact"><Contact /></Route>
@@ -30,7 +32,9 @@ function App() {
       <Route path="/csharpproject"><CSharpProject /></Route>
       <Route path="/angularproject"><AngularProject /></Route>
       <Route path="/whatsonpresale"><ProjectP3 /></Route>
+      </Switch>
       </HashRouter>
+      </BrowserRouter>
       <StyledFooter footerLabel="Created by Adrian Genosa &copy;2022 &#8594; adrian.genosa@gmail.com" />
     </Container>
   );
