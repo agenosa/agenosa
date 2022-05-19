@@ -20,7 +20,7 @@ function App() {
     <Container main>
       <GlobalStyles />
       <StyledNavBar />
-      <Switch>
+      <HashRouter>
       <Route exact path="/"><Home /></Route>
       <Route path="/about"><About /></Route>
       <Route path="/contact"><Contact /></Route>
@@ -30,7 +30,7 @@ function App() {
       <Route path="/csharpproject"><CSharpProject /></Route>
       <Route path="/angularproject"><AngularProject /></Route>
       <Route path="/whatsonpresale"><ProjectP3 /></Route>
-      </Switch>
+      </HashRouter>
       <StyledFooter footerLabel="Created by Adrian Genosa &copy;2022 &#8594; adrian.genosa@gmail.com" />
     </Container>
   );
