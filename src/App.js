@@ -24,14 +24,14 @@ function App() {
       <HashRouter basename="/">
       <Switch>
       <Route exact path="/"><Home /></Route>
-      <Route exact path="/about"><About /></Route>
-      <Route exact path="/contact"><Contact /></Route>
-      <Route exact path="/projects"><Projects /></Route>
-      <Route exact path="/vueproject"><VueProject /></Route>
-      <Route exact path="/reactproject"><ReactProject /></Route>
-      <Route exact path="/csharpproject"><CSharpProject /></Route>
-      <Route exact path="/angularproject"><AngularProject /></Route>
-      <Route exact path="/whatsonpresale"><ProjectP3 /></Route>
+      <Route path="#about"><About /></Route>
+      <Route path="#contact"><Contact /></Route>
+      <Route path="#projects"><Projects /></Route>
+      <Route path="#vueproject"><VueProject /></Route>
+      <Route path="#reactproject"><ReactProject /></Route>
+      <Route path="#csharpproject"><CSharpProject /></Route>
+      <Route path="#angularproject"><AngularProject /></Route>
+      <Route path="#whatsonpresale"><ProjectP3 /></Route>
       </Switch>
       </HashRouter>
       </BrowserRouter>
