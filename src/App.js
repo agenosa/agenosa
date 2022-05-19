@@ -9,7 +9,7 @@ import CSharpProject from "./pages/CSharpProject"
 import ReactProject from "./pages/ReactProject";
 import ProjectP3 from "./pages/ProjectP3"
 import "react-awesome-slider/dist/styles.css";
-import { Routes, Route, HashRouter, Switch, BrowserRouter } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import { Container } from "./components/Container.style";
 import { StyledFooter } from "./components/Footer.style";
 import StyledNavBar from "./components/navbar/Navbar.style";

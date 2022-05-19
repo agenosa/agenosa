@@ -34,7 +34,7 @@ const card = (
       </Tooltip>
 
       <Tooltip title="Resume">
-      <IconButton href="https://drive.google.com/file/d/1zeE_QpbALCLVRqz-yW3_Gp2DN18ykb6j/view?usp=sharing" target="_blank">
+      <IconButton href="https://drive.google.com/file/d/17M8Wkoc7JN7Q504FKaUdtKh9c2W0wtPA/view?usp=sharing" target="_blank">
         <PictureAsPdfIcon className="contact_icons"/>
       </IconButton>
       </Tooltip>
