@@ -45,7 +45,7 @@ export default function CSharpProject() {
             developers, and passing data to and from the backend using endpoints.<br></br>
             <br></br>
             View the live demo here:<br></br>
-            <a href="https://whatsonpresalestorage.z13.web.core.windows.net/home">
+            <a href="https://whatsonpresalestorage.z13.web.core.windows.net/home" target="_blank">
               What's On Presale?
             </a>
           </p>
