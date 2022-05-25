@@ -24,6 +24,9 @@ import aws_logo from "./images/aws_logo.svg";
 import tailwind_logo from "./images/tailwind-css-2.svg"
 import express_logo from "./images/express_logo.svg"
 
+import swift_logo from "./images/swift_logo.svg"
+import php_logo from "./images/php_logo.svg"
+
 // Fade right animation
 export const fadeRight = {
   hidden: { opacity: 0, x: -100 },
@@ -108,6 +111,12 @@ const files = {
   },
   express: {
     logo: express_logo
+  },
+  swift: {
+    logo: swift_logo
+  },
+  php: {
+    logo: php_logo
   }
 };
 

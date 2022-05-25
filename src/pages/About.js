@@ -93,6 +93,9 @@ const About = () => {
           <Tooltip title="C#">
             <StyledImage about src={files.csharp.logo} />
           </Tooltip>
+          <Tooltip title="PHP">
+            <StyledImage about src={files.php.logo} />
+          </Tooltip>
         </motion.div>
 
         <motion.div
@@ -109,6 +112,9 @@ const About = () => {
           </Tooltip>
           <Tooltip title="Kotlin">
             <StyledImage about src={files.android.logo} />
+          </Tooltip>
+          <Tooltip title="iOS Swift">
+            <StyledImage about src={files.swift.logo} />
           </Tooltip>
           <Tooltip title="Tailwind CSS">
             <StyledImage about src={files.tailwind.logo} />
