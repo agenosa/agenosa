@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5903abc7.css",
-    "main.js": "/static/js/main.25bc52d8.js",
+    "main.js": "/static/js/main.6bb104de.js",
     "reactPlayerYouTube.js": "/static/js/reactPlayerYouTube.509cb1d2.chunk.js",
     "reactPlayerSoundCloud.js": "/static/js/reactPlayerSoundCloud.6dfbdfc1.chunk.js",
     "reactPlayerVimeo.js": "/static/js/reactPlayerVimeo.c27899fd.chunk.js",
@@ -28,18 +28,20 @@
     "static/media/aws_logo.svg": "/static/media/aws_logo.1baaa078f947505c36dc8ee7595f91da.svg",
     "static/media/AG_LOGO.svg": "/static/media/AG_LOGO.7b5cc507857763496363362b7df6065b.svg",
     "static/media/android_logo.svg": "/static/media/android_logo.0feb81674292c128cb781b471d560cb0.svg",
+    "static/media/swift_logo.svg": "/static/media/swift_logo.8011e0e32522967ecb984ee819569b03.svg",
     "static/media/python_logo.svg": "/static/media/python_logo.e6d7dc739a91892bbf1f6262412046dd.svg",
     "static/media/javascript_logo.svg": "/static/media/javascript_logo.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
     "index.html": "/index.html",
     "static/media/csharp_logo.svg": "/static/media/csharp_logo.5bbe8d4b3108b59c353eb14368c83573.svg",
     "static/media/tailwind-css-2.svg": "/static/media/tailwind-css-2.315d0ac2a2708d5f06972906113dfbf1.svg",
+    "static/media/php_logo.svg": "/static/media/php_logo.c22bc8983a322ad6551b64604137b960.svg",
     "static/media/angular_svg.svg": "/static/media/angular_svg.28ae4f3c6c193d04113e4767a73b86bc.svg",
     "static/media/css_logo.svg": "/static/media/css_logo.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/html_logo.svg": "/static/media/html_logo.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/react_svg.svg": "/static/media/react_svg.3a03708e42481565259f85329d20b695.svg",
     "static/media/vue_logo.svg": "/static/media/vue_logo.f04dfe30a8ad8eb5c4e01aaf1163cb53.svg",
     "main.5903abc7.css.map": "/static/css/main.5903abc7.css.map",
-    "main.25bc52d8.js.map": "/static/js/main.25bc52d8.js.map",
+    "main.6bb104de.js.map": "/static/js/main.6bb104de.js.map",
     "reactPlayerYouTube.509cb1d2.chunk.js.map": "/static/js/reactPlayerYouTube.509cb1d2.chunk.js.map",
     "reactPlayerSoundCloud.6dfbdfc1.chunk.js.map": "/static/js/reactPlayerSoundCloud.6dfbdfc1.chunk.js.map",
     "reactPlayerVimeo.c27899fd.chunk.js.map": "/static/js/reactPlayerVimeo.c27899fd.chunk.js.map",
@@ -56,6 +58,6 @@
   },
   "entrypoints": [
     "static/css/main.5903abc7.css",
-    "static/js/main.25bc52d8.js"
+    "static/js/main.6bb104de.js"
   ]
 }
